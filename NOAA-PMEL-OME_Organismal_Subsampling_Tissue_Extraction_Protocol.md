@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 420
 personnel_required: 1
 language: en
-issued: 2025-10-09
+issued: 2025-10-10
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -94,22 +94,19 @@ nucl_acid_ext_method_additional: not applicable
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | NA | Initial release |
+| 1.0.0 | 2025-10-10 | Initial release |
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
-|BSC	|Biosafety cabinent |
 |CICOES| Cooperative Institute for Climate, Ocean, and Ecosystem Studies|
 |DNA	|Deoxyribonucleic acid|
-|eDNA	|environmental DNA|
 |EtOH| Ethanol|
 |NOAA|National Oceanic and Atmospheric Administration|
 |OME	|Ocean Molecular Ecology|
-|PCR| Polymerase chain reaction |
 |PME|Pacific Marine Environmental Laboratory
 |PPE | Personal protective equipment |
 |UV| Ultraviolet|
-|UW| University of Washington
+|UW| University of Washington|
 
 ### Glossary
 
@@ -123,13 +120,15 @@ This document describes the standard protocol to subsample and extract DNA from 
 
 ### Summary
 
-Nucleic acid extraction and organismal subsampling using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
+The NOAA PMEL Ocean Molecular Ecology (OME) follows guidance set by the [Introduction to Developing DNA Reference Barcode Sequences] (https://doi.org/10.5281/zenodo.14867762) to collect and subsampling organisms. Nucleic acid extraction using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol are also used by this group to extract DNA from organismal tissue.
 
 ### Method Description and Rationale
 
+The [Introduction to Developing DNA Reference Barcode Sequences] (https://doi.org/10.5281/zenodo.14867762) works to established a highly reproducible and easily executatable sampling protocol for organisms. DNeasy Blood & Tissue kits are commonly used for tissue extractions across many phylums.
 
 ### Spatial Coverage and Environment(s) of Relevance
 
+This protocol has been used to subsample tissue and extract DNA from hundreds of organismal samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
 ### Personnel Required
 
