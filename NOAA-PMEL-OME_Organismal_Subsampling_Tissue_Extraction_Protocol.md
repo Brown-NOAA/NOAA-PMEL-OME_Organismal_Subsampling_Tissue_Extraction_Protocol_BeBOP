@@ -154,45 +154,46 @@ Subsampling and extraction from a sample can vary depending on the size and type
 - Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
 - Remark: For example, some of the consumables may need to be sterilized, some commercial solutions may need to be diluted or shielded from light during the operating procedure.
 
-For a full extraction set, including 23 eDNA samples and a field blank:
+For a full extraction set, including 24 organismal samples:
 
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |||||||
 | Heatshaker | Fisherbrand incubating mini-shaker | Fisher Scientific | 1 | Can be substituted with generic; hot bath not recommend for sterility reasons. |
-| Centrifuge | Eppendorf 5425 R  | Fisher Scientific | 1 | Can be substituted with generic - needs to fit 1.5 mL tubes. |
+| Centrifuge | Eppendorf 5425 R  | Fisher Scientific | 1 | Can be substituted with generic, but needs to fit 1.5 mL tubes. |
 | Vortex | Analog vortex mixer | Fisher Scientific | 1 | Can be substituted with generic. |
-| UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Recommended not required; can be substituted. |
-|-20°C freezer|TSX high-performance -20°C manual defrost freezer |Fisher Scientific|1|Can be substituted with generic but recommend temperature display.|
+| UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Recommended not required, but can be substituted. |
+|-20°C freezer|TSX high-performance -20°C manual defrost freezer |Fisher Scientific|1|Can be substituted with a generic, but recommend temperature display.|
 |Pipettor: 20 - 200 μL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor.|
 |Pipettor: 100-1000 μL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor.|
 | Microtube racks | 96-Well flipper microtube racks | Fisher Scientific | 2 | Can be substituted with generic, but must fit 1.5-2.0 mL tubes. |
-| 50 mL tube racks | SPL snap 50 mL tube rack (25 place) | SPL Life Sciences | 2 | Can be substituted but must fit sterivex. |
-| 4-way tube racks | 4 way interlocking tube rack| Cole-Parmer | 4 | Can be substituted with generic, must fit 12 x 5 mL tubes and 50 mL tubes. |
+| 50 mL tube racks | SPL snap 50 mL tube rack (25 place) | SPL Life Sciences | 2 | Can be substituted, but must fit sterivex. |
+| 4-way tube racks | 4 way interlocking tube rack| Cole-Parmer | 4 | Can be substituted with generic, but must fit 12 x 5 mL tubes and 50 mL tubes. |
 |Wash bottles|Safety wash bottles 500 mL for EtOH and bleach|VWR|2|Can be substituted with generic, but recommend different colored bottles for each reagent. Must be sterilized before use. |
 | **Consumable equipment** |
 | 200 μL pipette tips  | TipOne RPT filter tips 200 μL graduated| USA Scientific |96 | Can be substitued with generic. Must be sterile and filtered. |
 | 1000 μL pipette tips  | TipOne RPT filter tips 1000 μL | USA Scientific |220 | Can be substituted with generic. Must be sterile and filtered. |
 | 1.5 mL tubes | Snap cap DNA LoBind 1.5 mL tubes, PCR-clean| Eppendorf |24 | Can be substituted with generic. Must be sterile. |
-| 5 mL tubes | DNA LoBind 5 mL PCR clean centrifuge tube | Eppendorf | 24 | Can be substituted with generic, must be sterile/PCR clean |
+| 5 mL tubes | DNA LoBind 5 mL PCR clean centrifuge tube | Eppendorf | 24 | Can be substituted with generic. Must be sterile/PCR clean. |
 | 50 mL falcon tubes | Falcon 50 mL high clarity conical centrifuge tube | Corning Falcon | 3 | Can be substituted with generic. Must be sterile. |
 | Kimwipes | Delicate task wipes | Kimtech | 5 | Can be substituted with generic. Must be lint-free.|
 | Nitrile gloves | Powder free nitrile gloves | Fisher Scientific | 8 | Can be substituted with generic nitrile gloves. Does not come sterile; it must be sterilized before use.|
-| Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space|
+| Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space.|
+| Rite in the Rain paper | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space.|
 | Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 | **QIAGEN Extraction Kit** | Qiagen DNeasy Blood and Tissue Kit - 250 extractions | QIAGEN | 1 | For this protocol at scale (i.e., 250 samples), additional volumes of some buffers need to be purchased.|
 | *QIAGEN kit consumables* |  |  |  |  |
-| Spin columns | Mini spin column | **Included in kit** | 24 | Kit contains 250 columns - sufficient for 250 extractions using this protocol) |
-| Collection tubes | 2 mL collection tube | **Included in kit**| 48 | Kit contains 500 tubes - sufficient for 250 extractions using this protocol) |
+| Spin columns | Mini spin column | **Included in kit** | 24 | Kit contains 250 columns - sufficient for 250 extractions using this protocol. |
+| Collection tubes | 2 mL collection tube | **Included in kit**| 48 | Kit contains 500 tubes - sufficient for 250 extractions using this protocol. |
 | *QIAGEN kit chemicals* |  |  |  |  |
-| Buffer ATL | QIAGEN Buffer ATL | **Included in kit, may need to purchase additional** | 17.28 mL | Kit contains 50 mL  - sufficient for 69 extractions using this protocol; requires 200 mL total for 250 extractions. |
-| Proteinase K | Qiagen Proteinase K | **Included in kit, may need to purchase additional** | 1920  μL  | Kit contains 6 mL - sufficient for 75 extractions using this protocol; requires 20 mL total for 250 extractions. |
-| Buffer AL | Qiagen Buffer AL | **Included in kit, may need to purchase additional** | 21.6 mL | Kit contains 66 mL - sufficient for 73 extractions using this protocol; requires 225 mL total for 250 extractions. |
-| Buffer AW1 | Qiagen Buffer AW1 | **Included in kit** | 12 mL | Kit contains 98 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
+| Buffer ATL | QIAGEN Buffer ATL | **Included in kit** | 4.5 mL | Kit contains 50 mL  - sufficient for 250 extractions. |
+| Proteinase K | Qiagen Proteinase K | **Included in kit** | 500  μL  | Kit contains 6 mL - sufficient for 250 extractions. |
+| Buffer AL | Qiagen Buffer AL | **Included in kit** | 5.0 mL | Kit contains 66 mL - sufficient for 250 extractions. |
+| Buffer AW1 | Qiagen Buffer AW1 | **Included in kit** | 12 mL | Kit contains 98 mL concentrate - sufficient for 250 extractions. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
 | Buffer AW2 | Qiagen Buffer AW2| **Included in kit** | 12 mL| Kit contains 66 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
-| Buffer AE | Qiagen Buffer AE | **Included in kit** | 2400 μL | Kit contains 120 mL - sufficient for 1200 extractions using this protocol. |
+| Buffer AE | Qiagen Buffer AE | **Included in kit** | 2400 μL | Kit contains 120 mL - sufficient for 1200 extractions. |
 | **Chemicals** |
-| 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 30 mL|Can be substituted with generic, must be 200 proof and molecular biology grade |
+| 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 30 mL|Can be substituted with generic, must be 200 proof and molecular biology grade. |
 | 70% EtOH | Molecular biology grade ethanol | 20 mL |  |
 | 10% bleach | Hypochlorite bleach | Clorox | 10 mL| Remake every ~5 days as bleach decomposes quickly at 10% concentration. The majority is used in bottle/tube sterilization.|
 
@@ -201,20 +202,20 @@ For a full extraction set, including 23 eDNA samples and a field blank:
 ### Field Collection and Subsampling
 For more details on organismal collection, see [Introduction to Developing DNA Reference Barcode Sequences](https://doi.org/10.5281/zenodo.14867762).
 
-Organisms can be collected via a variety of methods (e.g., hand-sampling, scuba survey, ROV sampling). Collect live, intact specimens to ensure quality for sorting, processing, photography, and DNA barcoding. Maintain the temperature, oxygen, and water levels, as DNA degrades after cell death. Some species (e.g., gelatinous invertebrates, shrimp) require fresh specimens for identification, while others (e.g., fishes) can be preserved. Life color and delicate features often degrade under stress, so photographing live specimens is essential.
+Organisms can be collected via a variety of methods (e.g., hand-sampling, scuba survey, ROV sampling). Collect live, intact specimens to ensure quality for sorting, processing, photography, and DNA barcoding. Maintain the temperature, oxygen, and water levels, as DNA degrades after cell death. Some species (e.g., gelatinous invertebrates, shrimp) require fresh specimens for identification, while others (e.g., fishes) can be preserved. Live color and delicate features often degrade under stress, so photographing live specimens is essential.
 
-General Photography Guidelines
+**General Photography Guidelines**
 * Photograph all organisms with a scale bar and their sampling number before subsampling.
-*  For the best quality photo, fully submerge the specimen in seawater, place black felt under the bin, and elevate using Falcon tube caps. Then use a DSLR and flash for the best image.
+*  For the best quality photo, fully submerge the specimen in seawater, place black felt under the bin, and elevate using Falcon tube caps. Then use a DSLR and flash.
 *  In addition to a standard photo of the entire organism, prioritize anterior and posterior photos for polychaetes and oral and aboral photos of other organisms (e.g., clams, stars, anemones). If the organism has unique features or appendages, capture photos as well.
 Additional photo suggestions can be found below by taxon.
 
 #### Tissue Subsampling
-Ideal genetic subsamples are a couple of cubic millimeters, in ~1 mm sized pieces, and are taken when organisms are sampled in the field. Once the organism is subsampled, place the tissue in a 1.5 mL tube and ensure you use ~10x the volume of fixative. With small animals or those that deteriorate rapidly (sponges, flatworms, etc.), it is important to fix a subsample before, or quickly after death as DNA degrades rapidly. If the time or setting doesn't allow for field subsampling, this process can occur back in the laboratory for less sensitive specimens.
+Ideal genetic subsamples are a couple of cubic millimeters, in ~1 mm sized pieces, and are taken when organisms are sampled in the field. Once the organism is subsampled, place the tissue in a 1.5 mL tube and ensure you use ~10x the volume of fixative. With small animals or those that deteriorate rapidly (sponges, flatworms, etc.), it is important to fix a subsample before or quickly after death, as DNA degrades rapidly. If the time or setting doesn't allow for field subsampling, this process can occur back in the laboratory for less sensitive specimens.
 
 1.  Sterilize benches and durable equipment by wiping with 10% bleach followed by 70% EtOH. For extra caution, sterilize forceps used for subsampling by dipping in 70% EtOH and flame sterilizing. 
 2.  Place the sample on a flat surface or dissection tray, then use sterilized equipment to subsample the organism - see guidance below for each taxon.
-3.  Place specimen in pre-labeled 1.5 mL collection tube pre-filled with 96% EtOH. Place the sampling number (printed on Rite-N-Rain paper) in the collection tube alongside the specimen.
+3.  Place specimen in pre-labeled 1.5 mL collection tube pre-filled with 96% EtOH. Place the sampling number (printed on Rite in the Rain paper) in the collection tube alongside the specimen.
 4.  Wipe down the dissection tray with paper towels between samples and resterilize equipment.
 
 #### Procedures by Taxon
@@ -263,14 +264,14 @@ For most organismal samples, the standard QIAGEN Blood & Tissue protocol (Option
 **Note**: A white precipitate may form on the addition of Buffer AL and EtOH. This will not disrupt the DNeasy procedure. 
 
 6. Pipette the mixture 600 μL (Option A) or 150 μL (Option B) into the DNeasy Mini spin column placed in a 2 mL collection tube. 
-7. Centrifuge at ≥6000 x g (8000 rpm) for 1 min. Discard the flow-through and collection tube. 
+7. Centrifuge at ≥6000 x g (8,000 rpm) for 1 min. Discard the flow-through and collection tube. 
 9. Place the DNeasy Mini spin column into a new 2 mL collection tube and add 500 μL Buffer AW1.
-9. Centrifuge at ≥6000 x g (8000 rpm) for 1 min. Discard the flow-through and collection tube. 
+9. Centrifuge at ≥6000 x g (8,000 rpm) for 1 min. Discard the flow-through and collection tube. 
 10. Place the DNeasy Mini spin column into a new 2 mL collection tube and add 500 μL Buffer AW2.
 11. Centrifuge for 3 min at 20,000 x g (14,000 rpm). 
 12. Discard flow-through and collection tube. 
-13. Place the DNeasy Mini spin column in a clean, labeled 1.5 mL tube. 
-14. Pipette 100 µL Buffer AE onto the spin column membrane. Incubate for 5 min and then centrifuge for 1 min at 6,000 ∗ g (8000 rpm). Without discarding flow-through, repeat with another 100 µl Buffer AE and centrifuge. Discard the spin column, as your extract is now in the 1.5 mL tube.
+13. Place the DNeasy Mini spin column in a sterile, labeled 1.5 mL tube. 
+14. Pipette 100 µL Buffer AE onto the spin column membrane. Incubate for 5 min and then centrifuge for 1 min at 6,000 ∗ g (8,000 rpm). Without discarding flow-through, repeat with another 100 µl Buffer AE and centrifuge. Discard the spin column, as your extract is now in the 1.5 mL tube.
 15. Store extracted DNA tubes in a -20℃ freezer until later use.
 
 ### Storage - Tissue Extractions
