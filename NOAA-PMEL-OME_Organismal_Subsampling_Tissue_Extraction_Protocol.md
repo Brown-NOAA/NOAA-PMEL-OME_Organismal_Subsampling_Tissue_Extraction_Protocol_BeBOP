@@ -179,7 +179,7 @@ For a full extraction set, including 24 organismal samples:
 | Kimwipes | Delicate task wipes | Kimtech | 5 | Can be substituted with generic. Must be lint-free.|
 | Nitrile gloves | Powder free nitrile gloves | Fisher Scientific | 8 | Can be substituted with generic nitrile gloves. Does not come sterile; it must be sterilized before use.|
 | Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space.|
-| Rite in the Rain paper | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space.|
+| Rite in the Rain paper | All weather paper | Rite In The Rain | 1 ||
 | Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 | **QIAGEN Extraction Kit** | Qiagen DNeasy Blood and Tissue Kit - 250 extractions | QIAGEN | 1 | For this protocol at scale (i.e., 250 samples), additional volumes of some buffers need to be purchased.|
 | *QIAGEN kit consumables* |  |  |  |  |
