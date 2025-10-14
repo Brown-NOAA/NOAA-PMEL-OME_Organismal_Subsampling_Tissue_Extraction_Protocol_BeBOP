@@ -280,7 +280,7 @@ Place extracted DNA tubes into a labeled cryobox and store in a -20°C freezer u
 
 ### Quality Control
 
-Samples and controls are quantified to verify DNA concentration using the [NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md). Lastly, samples are PCR amplified alongside no template and positive controls.
+Samples and controls are quantified to verify DNA concentration using the [NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol.md). Lastly, samples are PCR amplified alongside no template and positive controls.
 
 ### Basic Troubleshooting Guide
 
