@@ -7,12 +7,12 @@ analyses: individual organism specimen [OBI:0002648], sample from organism [OBI:
 geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323], South Pacific Ocean [GAZ:00002418]
 broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
 local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], estuary [ENVO:00000045]
-environmental_medium: HAN HELP
+environmental_medium: tissue [UBERON:0000479]
 target: deoxyribonucleic acid (DNA) [NCIT:C449]
-creator: Han Weinrich, Karina Lai
+creator: Shannon Brown, Han Weinrich, Karina Lai
 materials_required: vortexer [OBI:0400118], centrifuge [OBI:0400106], incubator [OBI:0000136]
 skills_required: sterile technique, pipetting skills, standard molecular technique
-time_required: 420
+time_required: 200
 personnel_required: 1
 language: en
 issued: 2025-10-10
@@ -26,7 +26,7 @@ maturity level: mature
 samp_category: sample
 env_broad_scale: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], freshwater biome [ENVO:00000873]
 env_local_scale: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], estuary [ENVO:00000045]
-env_medium: HAN HELP
+env_medium: tissue [UBERON:0000479]
 habitat_natural_artificial_0_1: 0
 samp_collect_method: ROV grab, hand-sampling
 samp_collect_device: ROV, bucket
@@ -36,7 +36,7 @@ samp_vol_we_dna_ext: not applicable
 samp_vol_we_dna_ext_unit: not applicable
 nucl_acid_ext_lysis: physical | enzymatic | thermal
 nucl_acid_ext_sep: column-based
-nucl_acid_ext: 
+nucl_acid_ext: https://github.com/Brown-NOAA/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP/edit/main/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol.md
 nucl_acid_ext_kit: Qiagen DNeasy Blood and Tissue Kit, 250
 nucl_acid_ext_modify: Modified for small, calcareous organisms, reagent volume altered
 dna_cleanup_0_1: 0
@@ -167,7 +167,7 @@ For a full extraction set, including 24 organismal samples:
 |Pipettor: 20 - 200 μL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor.|
 |Pipettor: 100-1000 μL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor.|
 | Microtube racks | 96-Well flipper microtube racks | Fisher Scientific | 2 | Can be substituted with generic, but must fit 1.5-2.0 mL tubes. |
-| 50 mL tube racks | SPL snap 50 mL tube rack (25 place) | SPL Life Sciences | 2 | Can be substituted, but must fit sterivex. |
+| 50 mL tube racks | SPL snap 50 mL tube rack (25 place) | SPL Life Sciences | 2 | Can be substituted |
 | 4-way tube racks | 4 way interlocking tube rack| Cole-Parmer | 4 | Can be substituted with generic, but must fit 12 x 5 mL tubes and 50 mL tubes. |
 |Wash bottles|Safety wash bottles 500 mL for EtOH and bleach|VWR|2|Can be substituted with generic, but recommend different colored bottles for each reagent. Must be sterilized before use. |
 | **Consumable equipment** |
@@ -213,7 +213,7 @@ Additional photo suggestions can be found below by taxon.
 #### Tissue Subsampling
 Ideal genetic subsamples are a couple of cubic millimeters, in ~1 mm sized pieces, and are taken when organisms are sampled in the field. Once the organism is subsampled, place the tissue in a 1.5 mL tube and ensure you use ~10x the volume of fixative. With small animals or those that deteriorate rapidly (sponges, flatworms, etc.), it is important to fix a subsample before or quickly after death, as DNA degrades rapidly. If the time or setting doesn't allow for field subsampling, this process can occur back in the laboratory for less sensitive specimens.
 
-1.  Sterilize benches and durable equipment by wiping with 10% bleach followed by 70% EtOH. For extra caution, sterilize forceps used for subsampling by dipping in 70% EtOH and flame sterilizing. 
+1.  Sterilize benches and durable equipment by wiping with 10% bleach followed by 70% EtOH. For extra caution, sterilize forceps used for subsampling by dipping in 70% EtOH and flame sterilizing. EtOH can be aliquoted into a 50 mL falcon tube for dipping.
 2.  Place the sample on a flat surface or dissection tray, then use sterilized equipment to subsample the organism - see guidance below for each taxon.
 3.  Place specimen in pre-labeled 1.5 mL collection tube pre-filled with 96% EtOH. Place the sampling number (printed on Rite in the Rain paper) in the collection tube alongside the specimen.
 4.  Wipe down the dissection tray with paper towels between samples and resterilize equipment.
