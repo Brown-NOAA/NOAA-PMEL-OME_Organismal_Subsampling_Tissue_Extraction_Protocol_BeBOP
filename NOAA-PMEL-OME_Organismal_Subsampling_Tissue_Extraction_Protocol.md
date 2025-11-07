@@ -7,7 +7,7 @@ analyses: individual organism specimen [OBI:0002648], sample from organism [OBI:
 geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323], South Pacific Ocean [GAZ:00002418]
 broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
 local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], estuary [ENVO:00000045]
-environmental_medium: tissue [UBERON:0000479]
+environmental_medium: organic material [ENVO:01000155]
 target: deoxyribonucleic acid (DNA) [NCIT:C449]
 creator: Shannon Brown, Han Weinrich, Karina Lai
 materials_required: vortexer [OBI:0400118], centrifuge [OBI:0400106], incubator [OBI:0000136]
@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 200
 personnel_required: 1
 language: en
-issued: 2025-10-10
+issued: 2025-11-06
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -26,7 +26,7 @@ maturity level: mature
 samp_category: sample
 env_broad_scale: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], freshwater biome [ENVO:00000873]
 env_local_scale: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], estuary [ENVO:00000045]
-env_medium: tissue [UBERON:0000479]
+env_medium: organic material [ENVO:01000155]
 habitat_natural_artificial_0_1: 0
 samp_collect_method: ROV grab, hand-sampling
 samp_collect_device: ROV, bucket
@@ -37,7 +37,7 @@ samp_vol_we_dna_ext_unit: not applicable
 nucl_acid_ext_lysis: physical | enzymatic | thermal
 nucl_acid_ext_sep: column-based
 nucl_acid_ext: https://github.com/Brown-NOAA/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP/edit/main/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol.md
-nucl_acid_ext_kit: Qiagen DNeasy Blood and Tissue Kit, 250
+nucl_acid_ext_kit: QIAGEN DNeasy Blood and Tissue Kit or QIAGEN DNeasy Plant Kit
 nucl_acid_ext_modify: Modified for small, calcareous organisms, reagent volume altered
 dna_cleanup_0_1: 0
 dna_cleanup_method: not applicable
@@ -72,7 +72,7 @@ nucl_acid_ext_method_additional: not applicable
 | PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
 | ------------- | ------------- | ------------- | ------------- |
 | Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2025-10-06|
-| Karina Lai  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0008-9236-6128 |2025-10-06|
+| Karina Lai | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0008-9236-6128 |2025-10-06|
 
 ### Related Protocols
 
@@ -83,8 +83,10 @@ nucl_acid_ext_method_additional: not applicable
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP | [https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP.md) | 1.0.1  |2025-08-22| Internal |
-| Introduction to Developing DNA Reference Barcode Sequences |[https://doi.org/10.5281/zenodo.14867762](https://doi.org/10.5281/zenodo.14867762) | 1.0.0  | 2025-02-19  | External |
+| NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP | https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol.md | 1.0.1  |2025-11-06| Internal |
+| Introduction to Developing DNA Reference Barcode Sequences |[https://doi.org/10.5281/zenodo.14867762](https://doi.org/10.5281/zenodo.14867762) | 1.0.0  | 2025-02-19 | External |
+| DNeasy Blood & Tissue Kit Extraction Protocol | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP/blob/main/DNeasy-Blood-and-Tissue-Kit-Protocol-April2016.pdf | 1.0.0 | 2012-04-01 | External |
+| DNeasy Plant Kit Extraction Protocol | https://github.com/Brown-NOAA/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP/blob/main/DNeasy-Plant-Maxi-Kit-Protocol-April2012.pdf | 1.0.0 | 2012-04-01 | External |
 
 ### Protocol Revision Record
 
@@ -94,7 +96,7 @@ nucl_acid_ext_method_additional: not applicable
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | 2025-10-10 | Initial release |
+| 1.0.0 | 2025-11-06 | Initial release |
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
@@ -120,7 +122,7 @@ This document outlines the standard protocol for subsampling and extracting DNA 
 
 ### Summary
 
-The NOAA PMEL Ocean Molecular Ecology (OME) follows guidance set by the [Introduction to Developing DNA Reference Barcode Sequences](https://doi.org/10.5281/zenodo.14867762) to collect and subsample organisms. Nucleic acid extraction using the Qiagen DNeasy Blood and Tissue Kit, with some modifications to the manufacturer’s protocol, is also used by this group to extract DNA from organismal tissue.
+The NOAA PMEL Ocean Molecular Ecology (OME) follows guidance set by the [Introduction to Developing DNA Reference Barcode Sequences](https://doi.org/10.5281/zenodo.14867762) to collect and subsample organisms. Nucleic acid extractions using the QIAGEN DNeasy Blood and Tissue Kit, with some modifications to the manufacturer’s protocol, and the QIAGEN DNeasy Plant Kit are used by this group to extract DNA from organismal tissue.
 
 ### Method Description and Rationale
 
@@ -128,7 +130,7 @@ The [Introduction to Developing DNA Reference Barcode Sequences](https://doi.org
 
 ### Spatial Coverage and Environment(s) of Relevance
 
-This protocol has been used to subsample tissue and extract DNA from hundreds of organismal samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea, and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
+This protocol has been used to subsample tissue and extract DNA from hundreds of organismal samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea, and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) to hydrothermal vents (e.g., East Pacific Rise and Marianas Trench) at varying distances from shore (coastal to off-shelf).
 
 ### Personnel Required
 
@@ -136,7 +138,7 @@ One person with molecular biology experience.
 
 ### Safety
 
-Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. Highly reactive compounds can form if Buffer AL or AW1 is combined with bleach. For other reagents, standard precautions, including wearing PPE, should be taken to avoid skin and eye exposure to chemicals.
+Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. This protocol also uses bleach and ethanol, both of which are classified as hazardous chemicals. Appropriate PPE must be worn, and standard safety procedures should be followed to avoid skin and eye exposure. Be aware that highly reactive compounds can form if Buffer AL or AW1 is combined with bleach.
 
 ### Training Requirements
 
@@ -181,17 +183,18 @@ For a full extraction set, including 24 organismal samples:
 | Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space.|
 | Rite in the Rain paper | All weather paper | Rite In The Rain | 1 ||
 | Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
-| **QIAGEN Extraction Kit** | Qiagen DNeasy Blood and Tissue Kit - 250 extractions | QIAGEN | 1 | For this protocol at scale (i.e., 250 samples), additional volumes of some buffers need to be purchased.|
+| QIAGEN Plant Kit | DNeasy Plant Mini Kit - 50 extractions | QIAGEN | 1 | Only required for certain organisms, if the DNeasy blood and tissue kit is ineffective (see more detail below).|
+| **QIAGEN Extraction Kit** | DNeasy Blood and Tissue Kit - 250 extractions | QIAGEN | 1 | For this protocol at scale (i.e., 250 samples), additional volumes of some buffers need to be purchased.|
 | *QIAGEN kit consumables* |  |  |  |  |
 | Spin columns | Mini spin column | **Included in kit** | 24 | Kit contains 250 columns - sufficient for 250 extractions using this protocol. |
 | Collection tubes | 2 mL collection tube | **Included in kit**| 48 | Kit contains 500 tubes - sufficient for 250 extractions using this protocol. |
 | *QIAGEN kit chemicals* |  |  |  |  |
 | Buffer ATL | QIAGEN Buffer ATL | **Included in kit** | 4.5 mL | Kit contains 50 mL  - sufficient for 250 extractions. |
-| Proteinase K | Qiagen Proteinase K | **Included in kit** | 500  μL  | Kit contains 6 mL - sufficient for 250 extractions. |
-| Buffer AL | Qiagen Buffer AL | **Included in kit** | 5.0 mL | Kit contains 66 mL - sufficient for 250 extractions. |
-| Buffer AW1 | Qiagen Buffer AW1 | **Included in kit** | 12 mL | Kit contains 98 mL concentrate - sufficient for 250 extractions. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
-| Buffer AW2 | Qiagen Buffer AW2| **Included in kit** | 12 mL| Kit contains 66 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
-| Buffer AE | Qiagen Buffer AE | **Included in kit** | 2400 μL | Kit contains 120 mL - sufficient for 1200 extractions. |
+| Proteinase K | QIAGEN Proteinase K | **Included in kit** | 500  μL  | Kit contains 6 mL - sufficient for 250 extractions. |
+| Buffer AL | QIAGEN Buffer AL | **Included in kit** | 5.0 mL | Kit contains 66 mL - sufficient for 250 extractions. |
+| Buffer AW1 | QIAGEN Buffer AW1 | **Included in kit** | 12 mL | Kit contains 98 mL concentrate - sufficient for 250 extractions. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
+| Buffer AW2 | QIAGEN Buffer AW2| **Included in kit** | 12 mL| Kit contains 66 mL concentrate - sufficient for 250 extractions using this protocol. **Mix with 100% molecular grade EtOH before use, instructions on bottle** |
+| Buffer AE | QIAGEN Buffer AE | **Included in kit** | 2400 μL | Kit contains 120 mL - sufficient for 1200 extractions. |
 | **Chemicals** |
 | 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 30 mL|Can be substituted with generic, must be 200 proof and molecular biology grade. |
 | 70% EtOH | Molecular biology grade ethanol | 20 mL |  |
@@ -211,7 +214,7 @@ Organisms can be collected via a variety of methods (e.g., hand-sampling, scuba 
 Additional photo suggestions can be found below by taxon.
 
 #### Tissue Subsampling
-Ideal genetic subsamples are a couple of cubic millimeters, in ~1 mm sized pieces, and are taken when organisms are sampled in the field. Once the organism is subsampled, place the tissue in a 1.5 mL tube and ensure you use ~10x the volume of fixative. With small animals or those that deteriorate rapidly (sponges, flatworms, etc.), it is important to fix a subsample before or quickly after death, as DNA degrades rapidly. If the time or setting doesn't allow for field subsampling, this process can occur back in the laboratory for less sensitive specimens.
+Ideal genetic subsamples are a couple of cubic millimeters, in ~1 mm sized pieces, and are taken when organisms are sampled in the field. Once the organism is subsampled, place the tissue in a 1.5 mL tube and ensure you use ~10x the volume of fixative. With small animals or those that deteriorate rapidly (sponges, flatworms, etc.), it is important to fix a subsample before or quickly after death, as DNA degrades rapidly. If the time or setting doesn't allow for field subsampling, this process can occur back in the laboratory for less sensitive specimens. Flash freezing in a -80 freezer is also an effective preservation method when preserving bulk specimens (e.g., crustaceans, clams). These bulk specimen collections can be stored in a 50 mL falcon tube or whirl-pak. 
 
 1.  Sterilize benches and durable equipment by wiping with 10% bleach followed by 70% EtOH. For extra caution, sterilize forceps used for subsampling by dipping in 70% EtOH and flame sterilizing. EtOH can be aliquoted into a 50 mL falcon tube for dipping.
 2.  Place the sample on a flat surface or dissection tray, then use sterilized equipment to subsample the organism - see guidance below for each taxon.
@@ -244,13 +247,13 @@ Protocol can be carried out in a general laboratory space, separated from areas 
 2. For extra caution, sterilize forceps used for subsampling by dipping in 70% EtOH and flame sterilizing. 
 3. Turn on the heatshaker to 56°C. If the Buffer ATL or AL has precipitate, place it in a heatshaker. Allow the buffer to heat until all precipitate is gone (~15 minutes), swirl as needed.
 4. Aliquot ~25 mL of 100% EtOH into a 50 mL Falcon tube and store at -20°C freezer for later use.
-5. Ensure 100% molecular grade EtOH has been added to Buffer AW1 and AW2 according to the Qiagen DNeasy Blood and Tissue Kit manufacturer's instructions. 
+5. Ensure 100% molecular grade EtOH has been added to Buffer AW1 and AW2 according to the QIAGEN DNeasy Blood and Tissue Kit manufacturer's instructions. 
 
 #### Subsample Preparation
 If the subsample is too large (> ~1 mm), use a sterilized razor blade and forceps to break off a small piece and relocate it to a new 1.5 mL tube. Cutting the tissue into smaller pieces has been found to result in more efficient lysis. If you are dealing with a hard-shelled organism (e.g., gastropod), use a sterilized mortar and pestle to break down the hard outer shell and access the soft tissue for extraction. 
 
 ### Tissue Extraction
-For most organismal samples, the standard QIAGEN Blood & Tissue protocol (Option A) as follows works for extracting DNA. However, for some smaller specimens (e.g., larval stage organisms, eggs) and/or organisms with a calcarious outer shell (e.g., pteropods, orphurioids), a modified protocol (Option B) with smaller volumes is more effective.
+For most organismal samples, the standard QIAGEN Blood & Tissue protocol (Option A) as follows works for extracting DNA. However, for some smaller specimens (e.g., larval stage organisms, eggs, zooplankton), a modified protocol (Option B) with smaller volumes is more effective. Some taxonomic groups, including nemerteans, gastropod molluscs, ophiuroids, crinoids, echinoderms, and some crustaceans, particularly individuals with bright color pigments and/or those that produce a lot of mucus, also benefit from more complex protocols that remove inhibitors or other biological compounds. For these specimens, we recommend using a [QIAGEN Plant Kit](https://github.com/Brown-NOAA/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP/blob/main/DNeasy-Plant-Maxi-Kit-Protocol-April2012.pdf) according to the manufacturer's protocol.
 
 1. In the 1.5 mL tube with the subsampled tissue, add 180 μL Buffer ATL (Option A) or 45 μL (Option B).
 2. Add 20 μL Proteinase K (Option A) or 5 μL (Option B) and mix by vortexing. 
@@ -290,7 +293,11 @@ Samples and controls are quantified to verify DNA concentration using the [NOAA-
 
 **Issue 2:** Liquid on sides of collection tube after centrifuge step following Buffer AW2 addition.
 
-**Solution 2:** Re-run the spin-down step in a fresh spin column. No additional buffer AW2 is added. If the issue persists, move to a new collection tube and respin.
+**Solution:** Re-run the spin-down step in a fresh spin column. No additional buffer AW2 is added. If the issue persists, move to a new collection tube and respin.
+
+**Issue 3:** Low DNA yield
+
+**Solution:** Extract the same again using a different protocol, for example, the modified DNeasy Blood & Tissue protocol for small organisms or the DNeasy Plant protocol.
 
 **Record troubleshooting notes and issues in the lab notebook.**
 
