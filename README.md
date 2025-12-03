@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17655027.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.17655027.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17655027.svg)](https://doi.org/10.5281/zenodo.17655027)
 
 See [ NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP](https://github.com/Brown-NOAA/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol.md) for detailed protocol.  
 
